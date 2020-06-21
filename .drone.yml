@@ -18,7 +18,7 @@ steps:
 - name: publish
   image: plugins/docker
   settings:
-    repo: omarCC2020/CCAbgabe
+    repo: omarcc2020/CCAbgabe
     username:
       from_secret: dockerhub_user
     password:
